@@ -22,13 +22,17 @@ In the context of designing a hotel safe using LabVIEW MyRIO, several electronic
 
 <h2>Access and Safe Unlocking</h2>
 When a user wishes to register a code in the safe, they should input the combination "1234" to unlock it. After entering the code, they need to press the "A" button to confirm. If the code is accurate, the safe will open, a LED on the MyRIO platform will illuminate, and the servo motor will perform a precise 180-degree rotation. Below is the demonstration image:
-
+<p align="center">
+  <img src="cas1.jpg" title=""  height="400"><br>
+</p>
 Feel the thrill of successful access and experience the safe's mechanisms in action. Your interaction sets the stage for a symphony of electronic precision and functionality.
 
 <h2>Unauthorized Access Attempt</h2>
 When a user attempts to register a code in the safe, they should input the combination "1234" to unlock it. After entering the code, they need to press the "A" button to confirm. If the code is incorrect, nothing will occur: the safe will remain closed, the LED on the MyRIO platform will remain off, and the servo motor will not rotate. This signifies that access to the safe is denied until the correct code is accurately entered. Below is the demonstration image:
 
-
+<p align="center">
+  <img src="cas2.jpg" title=""  height="400"><br>
+</p>
 Witness the safeguarding mechanisms in action as they thwart unauthorized entry attempts, ensuring the security of the contents within the safe. Your interaction serves as a testament to the system's vigilant protection.
 <h2></h2>
 
@@ -36,12 +40,18 @@ Witness the safeguarding mechanisms in action as they thwart unauthorized entry 
 <h2>Code Reset</h2>
 In the event of an error during code entry, the user can reset the code by pressing the "C" button. This action will enable them to initiate the code entry process anew. Below is the demonstration image:
 
-
+<p align="center">
+  <img src="cas3.jpg" title=""  height="400"><br>
+</p>
 Experience the convenience and flexibility of the code reset feature, which ensures that users can correct their input errors and start afresh without any complications. Your control over the system grants you the power to rectify and restart the process effortlessly.
 
 
 <h1 align="center">Simulation</h1>
 
+
+
+
+https://github.com/hsaine/LabVIEW_MyRIO/assets/85867562/e0877c03-f5da-4ccc-b92f-3f1bad1794c5
 
 
 
